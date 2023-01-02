@@ -1,0 +1,89 @@
+.App {
+
+}
+.main-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 100;
+}
+.nav_flex {
+  padding: 0px;
+  margin: 0px;
+  width :100%;
+  display : flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+
+
+.nav_logo {
+  flex: 1;
+  background: rgb(0, 0, 60);
+
+}
+.nav_list_items {
+  flex: 2;
+  padding-right: 50px;
+  padding-top: 10px;
+  margin: 0px;
+  background: rgb(0, 0, 60);
+
+}
+
+.nav_ul {
+  display : flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.nav_ul .nav_link , .nav_ul li {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600;
+  
+}
+
+.nav_ul .nav_link:hover , .nav_ul li:hover  {
+  color: red;
+  text-shadow: 1px 1px 1px red;
+
+}
+
+.log_div {
+  width: 100px;
+  padding-left: 50px;
+}
+.logo_img {
+  width: 150px;
+}
+
+
+
+.main-header02 > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px){
+  .main-header {
+    display: none;
+  }
+  .logo_img {
+    width : 100px
+  }
+  .main-header02  {
+    background-color: rgb(0, 0, 60);
+  }
+}
+
+
+@media (min-width: 768px){
+  .main-header02 {
+    display: none;
+    
+  }
+  
+}
