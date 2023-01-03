@@ -16,17 +16,17 @@
 }
 
 .h1_title .h1 {
-  font-size: 80px;
+  font-size: 7vw;
   font-style: italic;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: white;
-  /* text-shadow: 5px 5px 5px rgb(123, 123, 123); */
   text-shadow: 5px 5px 5px rgb(0, 0, 60);
   opacity: 1;
 }
+
 .h1_title button {
-  font-size: 25px;
+  font-size: 3vw;
   font-style: italic;
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
@@ -54,6 +54,9 @@
   box-shadow: 2px 2px 2px rgb(0, 0, 60);
   transition: 0.5s;
 }
+
+
+
 
 /*------------------------------------------------------------------AssociatePage---------------------------- */
 
@@ -176,10 +179,7 @@
     color:rgb(0, 0, 60)
 
 }
-/* .letter_div {
-    width: 100% ;
-    margin: auto;
-} */
+
 .letter_parent_para {
     width: 90%;
     margin: auto;

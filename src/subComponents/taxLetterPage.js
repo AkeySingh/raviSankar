@@ -1,4 +1,5 @@
 import React from 'react'
+import './subComp.css'
 
 function TaxLetterPage() {
   return (

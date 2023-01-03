@@ -13,7 +13,7 @@ function HomePage() {
       <AssociateCardPage />
       <WhyWeUsePage />
       <TaxLetterPage />
-      <CollectStepperPage />
+      {/* <CollectStepperPage /> */}
     </div>
   )
 }
