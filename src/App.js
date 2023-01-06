@@ -6,6 +6,7 @@ import AboutPage from './components/aboutPage'
 import ServicePage from './components/servicesPage'
 import AccountingPage from './components/accountingPage'
 import ContactPage from './components/contactPage'
+import FooterPage from './components/footerPage'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path='/accounting' element={<AccountingPage />} />
           <Route path='/contact' element={<ContactPage />} />
         </Routes>
+
+        <FooterPage />
       </Router>
     </>
   )

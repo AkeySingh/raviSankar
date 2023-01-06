@@ -16,7 +16,7 @@
 }
 
 .h1_title .h1 {
-  font-size: 7vw;
+  font-size: 6vw;
   font-style: italic;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
@@ -72,7 +72,7 @@
 }
 
 .associate_header h4 {
-  font-size: 2em;
+  font-size: 2rem;
   padding-bottom: 30px;
   font-weight: 600;
   color:rgb(0, 0, 60)
@@ -80,8 +80,9 @@
 
 .col_4 {
   margin: auto;
-  padding: 20px;
+  padding: 10px;
 }
+
 
 .card-title {
   font-size: 22px;
@@ -97,6 +98,9 @@
   text-align: start;
   padding: 10px;
 }
+
+
+
 .card {
   transition: all 0.5s;
 }
@@ -129,6 +133,11 @@
   box-shadow: 3px 3px 3px grey;
   color: red;
 }
+
+
+
+
+
 /* ----------------------------------------------whyWeUsePage css -------------------------------------------- */
 
 
@@ -158,6 +167,7 @@
     padding : 10px 10px  10px 10rem ;
     text-align: start;   
 }
+
 
 
 
@@ -218,6 +228,92 @@
 }
 
 .slick_header {
+  
   background-color:rgb(141, 141, 141); 
   padding: 50px;
 }
+
+/* ------------------------------------------------------------- how quire css------------------- */
+.how_aquire_container {
+  width: 100%;
+  padding: 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.how_aquire_title {
+  font-size: 3vw;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(105, 105, 254);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(184, 184, 251);
+  color: white;
+}
+
+
+.circle_div_parent6 , .circle_div_parent4 {
+  text-align: center;
+}
+.row_circle1 {
+  margin-bottom:25px;
+
+}
+.row_circle2 {
+  margin-top: 25px;
+}
+
+
+.circle_div_parent6  .circle_div1 {
+  background-image: linear-gradient(red, yellow, red);
+
+  color: black;
+}
+.circle_div_parent6  .circle_div2 {
+  background-image: linear-gradient(rgb(255, 102, 0) , yellow, rgb(255, 102, 0));
+  /* background-color: red; */
+}
+.circle_div_parent4  .circle_div1 {
+  background-image: linear-gradient(rgb(0, 179, 255), yellow, rgb(0, 179, 255));
+  /* background-color: rgb(33, 241, 113); */
+}
+.circle_div_parent4  .circle_div2 {
+  background-image: linear-gradient(green, yellow , green);
+  /* background-color: rgb(0, 179, 255); */
+}
+.circle_div_parent4  .circle_div3 {
+  background-image: linear-gradient(rgb(0, 179, 255), yellow, rgb(0, 179, 255));
+  /* background-color: rgb(255, 179, 0); */
+}
+
+
+
+.circle_div {
+  margin:auto;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px ;
+  text-align: center;
+  box-shadow: 5px 5px 5px grey; 
+}
+
+.circle_div_title {
+  /* font-size: large; */
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  top: 30%;
+  transform: translate(-50, -50);
+
+}
+
+/* ------------------------------------------------------------------------client_review_parent---------- */
+.client_review_parent {
+  width: 100%;
+  background-color:rgb(235, 249, 255);
+  border: 1px solid rgb(219, 220, 221);
+  border-radius: 12px;
+  text-align: center;
+  padding: 50px
+}
+

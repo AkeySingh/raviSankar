@@ -23,7 +23,7 @@ function AssociateCardPage() {
                   What is Tax Collection at Source (TCS)? The e-commerce operator is required to collect an amount
                   calculated at the rate not exceeding one percent of the net value of taxable supplies made through it.
                 </p>
-                <button class='enquiry_btn'>
+                <button className='enquiry_btn'>
                   Enquiry Now <ArrowForwardIcon />
                 </button>
               </div>
@@ -38,7 +38,7 @@ function AssociateCardPage() {
                   The concept of TDS was introduced with an aim to collect tax from the very source of income. As per
                   this concept, a person (deductor) who is liable to make payment of specified
                 </p>
-                <button class='enquiry_btn'>
+                <button className='enquiry_btn'>
                   Enquiry Now <ArrowForwardIcon />
                 </button>
               </div>
@@ -53,7 +53,7 @@ function AssociateCardPage() {
                   Can a challan generated online be modified? No. After logging into GSTN portal for generation of
                   challan, payment particulars have to be fed in by the tax payer or his authorized person.
                 </p>
-                <button class='enquiry_btn'>
+                <button className='enquiry_btn'>
                   Enquiry Now <ArrowForwardIcon />
                 </button>
               </div>

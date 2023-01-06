@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   opacity: 100;
+  z-index: 1;
 }
 .nav_flex {
   padding: 0px;
@@ -45,6 +46,22 @@
   font-weight: 600;
   
 }
+
+.nav_btn {
+  padding: 2px 10px; 
+  font-weight: 500;
+  border-radius:5px;
+  background :white;
+  color: black;
+  transition:all 0.5s;
+}
+
+
+.nav_btn:hover {
+box-shadow: 2px 2px 2px blue;
+color: red;
+}
+
 
 .nav_ul .nav_link:hover , .nav_ul li:hover  {
   color: red;
@@ -86,4 +103,17 @@
     
   }
   
+}
+
+/* -----------------------------------------------footer-container--------------------------------------- */
+
+.footer_parent_container {
+  width: 100vw;
+  background-color:rgb(0, 0, 60);
+}
+.footer-container {
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 60);
+  color: white;
 }

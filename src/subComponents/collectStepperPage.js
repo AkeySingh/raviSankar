@@ -1,56 +1,168 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 import Slider from 'react-slick'
-import './subComp.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import './collectStepper.css'
+import FacebookIcon from '@mui/icons-material/Facebook'
 
-// import React, { Component } from "react";
-// import Slider from "react-slick";
-
-export default class MultipleItems extends Component {
-  render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-    }
-    return (
-      <>
-        <div className='container slick_header'>
-          <div>
-            <h2> Multiple items </h2>
-            <Slider {...settings}>
-              <div>
-                <h3>1</h3>
-              </div>
-              <div>
-                <h3>2</h3>
-              </div>
-              <div>
-                <h3>3</h3>
-              </div>
-              <div>
-                <h3>4</h3>
-              </div>
-              <div>
-                <h3>5</h3>
-              </div>
-              <div>
-                <h3>6</h3>
-              </div>
-              <div>
-                <h3>7</h3>
-              </div>
-              <div>
-                <h3>8</h3>
-              </div>
-              <div>
-                <h3>9</h3>
-              </div>
-            </Slider>
-          </div>
-        </div>
-      </>
-    )
+function ImageSlider() {
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: window.innerWidth > 778 ? (window.innerWidth > 1040 ? 3 : 2) : 1,
+    slidesToScroll: 1,
+    cssEase: 'linear',
   }
+
+  console.log(window.innerWidth)
+
+  return (
+    <>
+      <div className='carousel'>
+        <h4 className='slider_title'>What we bring to you</h4>
+        <Slider {...settings}>
+          <div className='card-wrapper '>
+            <div className='card '>
+              <div className='card-image'>
+                <img alt='img' src='./income-tax-return.webp' />
+              </div>
+              <ul className='social-icons'>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-facebook '></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-instagram'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-twitter'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-dribbble'></i>
+                  </Link>
+                </li>
+              </ul>
+              <div className='details'>
+                <h2>
+                  Return Filing<span className='job-title'>Filing Income Tax</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className='card-wrapper col-4'>
+            <div className='card'>
+              <div className='card-image'>
+                <img alt='img' src='./trade.jpg' />
+              </div>
+              <ul className='social-icons'>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-facebook'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-instagram'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-twitter'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-dribbble'></i>
+                  </Link>
+                </li>
+              </ul>
+              <div className='details'>
+                <h2>
+                  John Doe <span className='job-title'>UI Developer</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className='card-wrapper col-4'>
+            <div className='card'>
+              <div className='card-image'>
+                <img alt='img' src='why_use.jpg' />
+              </div>
+              <ul className='social-icons'>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-facebook'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-instagram'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-twitter'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-dribbble'></i>
+                  </Link>
+                </li>
+              </ul>
+              <div className='details'>
+                <h2>
+                  John Doe <span className='job-title'>UI Developer</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className='card-wrapper col-4'>
+            <div className='card'>
+              <div className='card-image'>
+                <img alt='img' src='./istockphoto01.jpg' />
+              </div>
+              <ul className='social-icons'>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-facebook'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-instagram'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-twitter'></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/'>
+                    <i className='fa fa-dribbble'></i>
+                  </Link>
+                </li>
+              </ul>
+              <div className='details'>
+                <h2>
+                  John Doe <span className='job-title'>UI Developer</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </Slider>
+      </div>
+    </>
+  )
 }
+
+export default ImageSlider

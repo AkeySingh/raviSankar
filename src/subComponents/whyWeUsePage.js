@@ -20,7 +20,7 @@ function WhyWeUsePage() {
                     Can a challan generated online be modified?No. After logging into GSTN portal for generation of
                     challan, payment particulars have to be fed in by the tax payer or his authorized person.{' '}
                   </p>
-                  <button class='enquiry_btn'>Enquiry Now</button>
+                  <button className='enquiry_btn'>Enquiry Now</button>
                 </div>
               </div> */}
             </div>

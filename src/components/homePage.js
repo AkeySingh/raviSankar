@@ -1,8 +1,9 @@
 import React from 'react'
 import AssociateCardPage from '../subComponents/associateCardPage'
 import BannderPage from '../subComponents/bannderPage'
-import CollectStepperPage from '../subComponents/collectStepperPage'
-
+import ClientReviewPage from '../subComponents/clientReviewPage'
+import ImageSlider from '../subComponents/collectStepperPage'
+import HowAquireTax from '../subComponents/howAquireTax'
 import TaxLetterPage from '../subComponents/taxLetterPage'
 import WhyWeUsePage from '../subComponents/whyWeUsePage'
 
@@ -13,7 +14,9 @@ function HomePage() {
       <AssociateCardPage />
       <WhyWeUsePage />
       <TaxLetterPage />
-      {/* <CollectStepperPage /> */}
+      <ImageSlider />
+      <HowAquireTax />
+      <ClientReviewPage />
     </div>
   )
 }

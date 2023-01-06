@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CustumDrawer from '../reuseAbleComponents/custumDrawer'
-// import CustumDrawer from '../reuseAbleComponents/custumDrawer'
 
 function TopHeader() {
   return (
@@ -43,7 +42,7 @@ function TopHeader() {
                 </li>
                 <li>
                   <button className='nav_btn' to='/contact'>
-                    Enquery
+                    Enquiry
                   </button>
                 </li>
               </ul>
