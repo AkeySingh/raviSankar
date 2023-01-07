@@ -59,7 +59,7 @@ function TopHeader() {
             </div>
           </div>
           <div>
-            <CustumDrawer />
+            <CustumDrawer className='text-light' />
           </div>
         </div>
       </header>

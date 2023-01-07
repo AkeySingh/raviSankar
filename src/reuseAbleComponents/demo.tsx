@@ -41,31 +41,31 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Home', 'Services', 'Accounting'].map((text, index) => (
+        {['Home', 'Services', 'Accounting', 'About', 'Contact US', "Enquiry Now"].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               {/* <ListItemIcon>
 
 
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                // {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
               </ListItemIcon> */}
-              <ListItemText primary={text} />
+              <ListItemText className='fs-6' primary={text} />
             </ListItemButton>
           </ListItem>
         ))}
       </List>
       <Divider />
       <List>
-        {['About', 'Enquiry', 'Contact Us'].map((text, index) => (
+        {/* {['About', 'Enquiry', 'Contact Us'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
-              {/* <ListItemIcon>
+              <ListItemIcon>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon> */}
+              </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>
           </ListItem>
-        ))}
+        ))} */}
       </List>
     </Box>
   )
@@ -74,7 +74,7 @@ export default function TemporaryDrawer() {
     <div>
       {(['right'] as const).map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}><MenuRoundedIcon /></Button>
+          <Button className="light" onClick={toggleDrawer(anchor, true)}><MenuRoundedIcon   sx={{ fontSize: 40 }} /> </Button>
           <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
             {list(anchor)}
           </Drawer>

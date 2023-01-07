@@ -108,12 +108,99 @@ color: red;
 /* -----------------------------------------------footer-container--------------------------------------- */
 
 .footer_parent_container {
-  width: 100vw;
+  width: 100%;
   background-color:rgb(0, 0, 60);
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.5rem;
 }
 .footer-container {
   margin-top: 100px;
   width: 100%;
   background-color: rgb(0, 0, 60);
   color: white;
+}
+.footer-container .logo_img {
+  width: 250px;
+}
+
+
+.footer-container ul li {
+list-style-type: none;
+padding: 5px;
+ transition: 0.3s;
+font-family: 'Times New Roman', Times, serif;
+cursor: pointer;
+}
+
+.footer-container .ul1 li button {
+  padding: 5px 30px;
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 5px ;
+  background-color: black;
+  color: red;
+  box-shadow:5px 5px 5px rgb(55, 55, 55);
+
+}
+.footer-container .fa {
+  padding-right: 10px;
+  font-size:1rem;
+}
+
+
+.footer-container ul li:hover {
+  color: red
+}
+
+.footer-container .ul1 {
+  font-size: 1rem;
+}
+
+.footer-container .ul2 , .footer-container .ul3  {
+ font-size: 1rem; 
+}
+.footer-container .ul2 .title_ , .footer-container .ul3  .title_ {
+  font-size: 1.5rem
+}
+
+.footer-container ul li button:hover {
+  color: black;
+  background-color: white;
+}
+
+.footer_last_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_last_chid {
+  padding: 0px 30px 30px 50px;
+}
+
+.footer_last_chid .fa, .footer_last_chi .fa-facebook-official {
+    padding: 10px;
+    font-size: 25px;
+    transition: all 0.3s;
+    color: grey
+}
+
+
+.footer_last_chid .fa:hover  {
+-webkit-text-fill-color: blueviolet;
+font-size: 30px;
+cursor: pointer;
+}
+.footer_last_chid2 {
+  font-size : 0.7rem;
+}
+
+/* ----------------------------drower */
+
+.MuiTypography-body1 {
+  font-size: 1rem
+}
+
+.MuiPaper-root ul li:hover  {
+  background-color: rgb(0, 0, 60);
+  color: white
 }

@@ -13,7 +13,7 @@ function HowAquireTax() {
   return (
     <>
       <div className='how_aquire_container '>
-        <p className='how_aquire_title'>How to acquire tax consultancy services</p>
+        <p className='slider_title'>How to acquire tax consultancy services</p>
 
         <div class='container mt-5 text-center'>
           <div className='five-steps p-4 bg-success text-light circle_div'>

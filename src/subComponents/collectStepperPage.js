@@ -20,7 +20,7 @@ function ImageSlider() {
 
   return (
     <>
-      <div className='carousel'>
+      <div className='carousel '>
         <h4 className='slider_title'>What we bring to you</h4>
         <Slider {...settings}>
           <div className='card-wrapper '>
@@ -85,9 +85,7 @@ function ImageSlider() {
                 </li>
               </ul>
               <div className='details'>
-                <h2>
-                  John Doe <span className='job-title'>UI Developer</span>
-                </h2>
+                <h2>Rgistration</h2>
               </div>
             </div>
           </div>
@@ -119,9 +117,7 @@ function ImageSlider() {
                 </li>
               </ul>
               <div className='details'>
-                <h2>
-                  John Doe <span className='job-title'>UI Developer</span>
-                </h2>
+                <h2>Be An Anterperneur</h2>
               </div>
             </div>
           </div>
@@ -153,9 +149,7 @@ function ImageSlider() {
                 </li>
               </ul>
               <div className='details'>
-                <h2>
-                  John Doe <span className='job-title'>UI Developer</span>
-                </h2>
+                <h2>Compliance</h2>
               </div>
             </div>
           </div>

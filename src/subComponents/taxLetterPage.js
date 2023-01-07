@@ -4,7 +4,7 @@ import './subComp.css'
 function TaxLetterPage() {
   return (
     <>
-      <div className='letter_header'>
+      <div className='letter_header container'>
         <h4 className='h4'>Provide Best Taxation Services</h4>
         <hr />
         <h5>All you need to know</h5>
