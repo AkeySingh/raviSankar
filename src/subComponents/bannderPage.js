@@ -4,7 +4,7 @@ import './subComp.css'
 function BannderPage() {
   return (
     <>
-      <div id='carouselExample' className='carousel slide'>
+      <div id='carouselExample' className='container-fluid  carousel slide'>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
             <div className='h1_title'>
